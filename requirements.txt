@@ -3,5 +3,5 @@ pandas
 numpy
 nltk
 scikit-learn
-wikipedia-api
+wikipedia
 joblib
