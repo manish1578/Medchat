@@ -82,12 +82,21 @@ custom_css = """
 st.markdown(custom_css, unsafe_allow_html=True)
 
 # File paths
-voting_classifier_path = r"C:\Users\khwai\Pluto-Healthcare-Chatbot-main\Pluto-Healthcare-Chatbot-main\Pickle Files\voting_classifier.pkl"
-label_encoder_path = r"C:\Users\khwai\Pluto-Healthcare-Chatbot-main\Pluto-Healthcare-Chatbot-main\Pickle Files\label_encoder.pkl"
-tfidf_vectorizer_path = r"C:\Users\khwai\Pluto-Healthcare-Chatbot-main\Pluto-Healthcare-Chatbot-main\Pickle Files\tfidf_vectorizer.pkl"
-df_medicine_path = r"C:\Users\khwai\Pluto-Healthcare-Chatbot-main\Pluto-Healthcare-Chatbot-main\Datasets\Medicine_Details.csv"
-df_details_path = r"C:\Users\khwai\Pluto-Healthcare-Chatbot-main\Pluto-Healthcare-Chatbot-main\Datasets\Disease_Description.csv"
-nn_model_path = r"C:\Users\khwai\Pluto-Healthcare-Chatbot-main\Pluto-Healthcare-Chatbot-main\Pickle Files\nn_model.pkl"
+#voting_classifier_path = r"C:\Users\khwai\Pluto-Healthcare-Chatbot-main\Pluto-Healthcare-Chatbot-main\Pickle Files\voting_classifier.pkl"
+#label_encoder_path = r"C:\Users\khwai\Pluto-Healthcare-Chatbot-main\Pluto-Healthcare-Chatbot-main\Pickle Files\label_encoder.pkl"
+#tfidf_vectorizer_path = r"C:\Users\khwai\Pluto-Healthcare-Chatbot-main\Pluto-Healthcare-Chatbot-main\Pickle Files\tfidf_vectorizer.pkl"
+#df_medicine_path = r"C:\Users\khwai\Pluto-Healthcare-Chatbot-main\Pluto-Healthcare-Chatbot-main\Datasets\Medicine_Details.csv"
+#df_details_path = r"C:\Users\khwai\Pluto-Healthcare-Chatbot-main\Pluto-Healthcare-Chatbot-main\Datasets\Disease_Description.csv"
+#nn_model_path = r"C:\Users\khwai\Pluto-Healthcare-Chatbot-main\Pluto-Healthcare-Chatbot-main\Pickle Files\nn_model.pkl"
+
+
+voting_classifier_path = r"\voting_classifier.pkl"
+label_encoder_path = r"\label_encoder.pkl"
+tfidf_vectorizer_path = r"\tfidf_vectorizer.pkl"
+df_medicine_path = r"\Datasets\Medicine_Details.csv"
+df_details_path = r"\Datasets\Disease_Description.csv"
+nn_model_path = r"\nn_model.pkl"
+
 
 # Load models and data
 def load_pickle_file(filepath):
