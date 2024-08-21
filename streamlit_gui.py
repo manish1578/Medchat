@@ -90,12 +90,12 @@ st.markdown(custom_css, unsafe_allow_html=True)
 #nn_model_path = r"C:\Users\khwai\Pluto-Healthcare-Chatbot-main\Pluto-Healthcare-Chatbot-main\Pickle Files\nn_model.pkl"
 
 
-voting_classifier_path = r"\voting_classifier.pkl"
-label_encoder_path = r"\label_encoder.pkl"
-tfidf_vectorizer_path = r"\tfidf_vectorizer.pkl"
-df_medicine_path = r"\Datasets\Medicine_Details.csv"
-df_details_path = r"\Datasets\Disease_Description.csv"
-nn_model_path = r"\nn_model.pkl"
+voting_classifier_path = r"voting_classifier.pkl"
+label_encoder_path = r"label_encoder.pkl"
+tfidf_vectorizer_path = r"tfidf_vectorizer.pkl"
+df_medicine_path = r"Datasets\Medicine_Details.csv"
+df_details_path = r"Datasets\Disease_Description.csv"
+nn_model_path = r"nn_model.pkl"
 
 
 # Load models and data
@@ -205,7 +205,7 @@ def main():
     st.markdown(custom_css, unsafe_allow_html=True)
 
     # Insert an image at the top left
-    st.image(r"C:\Users\khwai\Pluto-Healthcare-Chatbot-main\Pluto-Healthcare-Chatbot-main\Main file\logo.png", width=140)  # Adjust the width as needed
+    st.image(r"\logo.png", width=140)  # Adjust the width as needed
 
     st.title("MEDCHAT 🩺 : Your Health One Chat Away💬🏥💊🌟")
 
